@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #343a40;
+    position: fixed;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #007bff;
+}
+
+.main {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    border-radius: 8px;
+}
